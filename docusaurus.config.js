@@ -12,6 +12,7 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'vonmecheln', // Usually your GitHub org/user name.
   projectName: 'horario-website', // Usually your repo name.
+  trailingSlash: false,
   themeConfig: {
     navbar: {
       title: 'IFPR Horário',
