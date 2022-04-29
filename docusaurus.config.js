@@ -4,7 +4,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: 'IFPR Horário',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'Com organização e tempo, acha-se o segredo de fazer tudo e bem feito.',
   url: 'https://vonmecheln.github.io/',
   baseUrl: '/horario-website/',
   onBrokenLinks: 'throw',

@@ -27,3 +27,63 @@
 html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }
+
+
+
+
+.v83gc{
+  background-color: #25c2a0;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.JE11kf{
+  display: flex;
+  flex: none;
+  background-color: #25c900;
+}
+
+.J2aUD{
+  flex: 1 1 60%;
+}
+
+.G5v83e{
+  background-color: #1c5a0e;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.NBzXR{
+  white-space: nowrap;
+  display: flex;
+  flex: none;
+  flex-direction: column;
+}
+
+.H7IzGb{
+  margin-left: -1px;
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+}
+
+.ALy9T{
+  -moz-box-flex: 1;
+  flex: 1;
+  margin-left: 1px;
+  min-width: 40px;
+}
+
+.nL44Lb {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: table;
+  min-width: 40px;
+}
