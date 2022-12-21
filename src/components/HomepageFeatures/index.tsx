@@ -8,34 +8,45 @@ type FeatureItem = {
   description: JSX.Element;
 };
 
-const FeatureList: FeatureItem[] = [
+const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'Fácil de usar',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        O horário foi projetado desde o início para ser facilmente visualizado e 
+        usado por alunos, professores e toda comunidade.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Foco na praticidade',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        O horário é focado na praticidade para consulta do dia-a-dia.
+        Verifique a distribuição de aulas por <code>turmas</code>, 
+        <code>professores</code> e <code>cursos</code>.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Produzido pelo IFPR',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Um trabalho feito em equipe por docentes do campus Assis Chateaubriand 
+        com muito esmero e carinho.
+      </>
+    ),
+  },
+  {
+    title: 'Melhorias constantes',
+    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    description: (
+      <>
+        O horário está em constante melhoria, adaptando-se da melhor maneira as mudanças 
+        de rotina do campus .
       </>
     ),
   },
@@ -43,7 +54,7 @@ const FeatureList: FeatureItem[] = [
 
 function Feature({title, Svg, description}: FeatureItem) {
   return (
-    <div className={clsx('col col--4')}>
+    <div className={clsx('col col--3')}>
       <div className="text--center">
         <Svg className={styles.featureSvg} role="img" />
       </div>
